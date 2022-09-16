@@ -1,6 +1,6 @@
 "strict mode"
 
-export const modal = (() => {
+const modal = (() => {
     function events() {
         document.addEventListener('click', event => {
             const { target } = event;
@@ -20,7 +20,7 @@ export const modal = (() => {
 
 
     function init() {
-        
+        console.log('Importado!')
         events();
     }
 
