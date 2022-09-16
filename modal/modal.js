@@ -20,7 +20,6 @@ const modal = (() => {
 
 
     function init() {
-        console.log('Importado!')
         events();
     }
 
